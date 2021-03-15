@@ -1,6 +1,6 @@
 package stack
 
-
+import "errors"
 // Stack is an abstract data type and is implemented as a slice of interface{}
 // elements.
 type Stack []interface{}
